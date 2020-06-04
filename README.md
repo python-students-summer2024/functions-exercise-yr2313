@@ -29,14 +29,16 @@ Helpful video:
 
 ## Modify the code
 
-The file named `solutions.py` contains several functions that must be completed in order for the program to work. Each function contains a description of what it should do.
+The files named `app_functions.py` and `main.py` contain several functions that must be completed in order for the program to work. Each function contains a description of what it should do.
 
-The only modifications you must make in order to complete this assignment are to these functions definitions in this one file. Do not modify any code outside of these function definitions.
+The only modifications you must make in order to complete this assignment are to these two files.
 
 ### Run the program
 
-To run the program, run the file named `main.py`. Running the `main.py` program makes use of the functions defined in `app_functions.py` file. Review the output in a variety of different contexts to make sure it is always correct, according to the instructions and documentation.
+To run the program, run the file named `main.py`. Running the `main.py` program should make use of the functions defined in `app_functions.py` file. Review the output in a variety of different contexts to make sure it is always correct, according to the instructions and documentation.
 
 ### Verify that the tests pass
 
 Pytest-based tests are included in the `tests` directory that will help you determine whether each function is operating as expected. If the functions have been completed correctly, all tests should pass. You should not modify any files in the `test` directory.
+
+Run the tests using Visual Studio Code's Tests panel.
