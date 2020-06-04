@@ -8,16 +8,19 @@ import app_functions
 
 def main():
   """
-  Use the functions (and only the functions) defined in app_functions.py to make this game work.
+  Use the functions defined in app_functions.py to make this game work.
+
   The flow of the game goes as follows:
   - Rolls two virtual dice to generate two pseudo-random numbers between 1 and 6, inclusive.
   - Pseudo-randomly decide whether the question will be an addition or a subtraction question.
   - Present the question to the user and ask them to enter their response.
-  - Tell the user whether their answer is correct or not.
-  - If the user's answer was incorrect, output the correct answer.
+  - If the user entered an invalid response, print an error message and do nothing further (i.e. do not do the next two steps below).
+  - If their answer was correct, congratulate them.
+  - If their answer was incorrect, show them the correct answer.
   """
   print('') # line break
   print("Welcome to the Math App!!!")
+  print('') # line break
   ### write code to complete this function BELOW here ###
   die_1 = app_functions.roll_die()
   die_2 = app_functions.roll_die()

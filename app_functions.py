@@ -32,8 +32,8 @@ def print_question(die_1_value, die_2_value, question_type):
   Prints out a math question that asks the user to calculate either the sum or difference of the two numbers rolled on virtual dice.
 
   Follow the given format for each type of question:
-  - "You rolled a 3 and a 5... Please enter the sum of 3 and 5: "
-  - "You rolled a 3 and a 5... Please enter the difference between 3 and 5: "
+  - "You rolled a 3 and a 5... What is the sum of 3 and 5?"
+  - "You rolled a 3 and a 5... What is the difference between 3 and 5?"
 
   A few notes:
   - You must use the format function to plug in the numbers into the printed text template.
@@ -46,9 +46,9 @@ def print_question(die_1_value, die_2_value, question_type):
   # complete this function below here
   print("You rolled a {} and a {}... ".format(die_1_value, die_2_value), end='')
   if (question_type == "difference"):
-    question = "Please enter the difference between {} and {}: ".format(die_1_value, die_2_value)
+    question = "What is the difference between {} and {}?".format(die_1_value, die_2_value)
   else:
-    question = "Please enter the sum of {} and {}: ".format(die_1_value, die_2_value)
+    question = "What is the sum of {} and {}?".format(die_1_value, die_2_value)
   print(question)
 
 def input_answer():
