@@ -39,6 +39,6 @@ To run the program, run the file named `main.py`. Running the `main.py` program 
 
 ### Verify that the tests pass
 
-Pytest-based tests are included in the `tests` directory that will help you determine whether each function is operating as expected. If the functions have been completed correctly, all tests should pass. You should not modify any files in the `test` directory.
+Pytest-based tests are included in the `tests` directory that will help you determine whether each function is operating as expected. If the functions have been completed correctly, all tests should pass. You should not modify any files in the `tests` directory.
 
 Run the tests using Visual Studio Code's Tests panel.
