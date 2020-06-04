@@ -1,8 +1,11 @@
-# Decision-Making Practice
+# Math Education App
 
-A few boolean expression puzzles to solve. The given code in [solutions.py](./solutions.py) contains several incomplete functions that you must complete to achieve the desired behavior. That is all you must do.
+You have decided to create an education app that elementary school teachers can use to help teach their students learn addition and subtraction.
 
-To run the program, run the file named [main.py](./main.py).
+The app will allow students to virtually roll two dice. The values of the dice will be displayed to the students, and the app will then ask students to input either the sum of the two dice or the difference between the two dice. Students are told whether their answer was correct or not.
+
+- A file named [app_functions.py](./app_functions.py) contains functions used by this app - you will need to complete these functions according to the documentation contained within this file.
+- To run the program, run the file named [main.py](./main.py) - you will have to complete this function according to the documentation contained within this file.
 
 ## Clone this repository
 
@@ -32,11 +35,7 @@ The only modifications you must make in order to complete this assignment are to
 
 ### Run the program
 
-To run the program, run the file named `main.py`. The code in this file makes use those functions you have modified in `solutions.py` to produce the intended behavior and output of the program.
-
-### Verify the output is correct
-
-Running the `main.py` program makes use of the functions defined in `solutions.py`. Each function asks the user to enter certain input, and the `main` function prints out some meaningful message in response to the user's input.
+To run the program, run the file named `main.py`. Running the `main.py` program makes use of the functions defined in `app_functions.py` file. Review the output in a variety of different contexts to make sure it is always correct, according to the instructions and documentation.
 
 ### Verify that the tests pass
 
