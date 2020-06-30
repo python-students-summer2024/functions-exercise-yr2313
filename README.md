@@ -42,3 +42,5 @@ To run the program, run the file named `main.py`. Running the `main.py` program 
 Pytest-based tests are included in the `tests` directory that will help you determine whether each function is operating as expected. If the functions have been completed correctly, all tests should pass. You should not modify any files in the `tests` directory.
 
 Run the tests using Visual Studio Code's Tests panel.
+
+If the tests do not appear, or seem to never stop loading, open up a Terminal window and run the command, `pytest --collect-only`, to see whether there are any errors in the code that prevent the tests from being discovered.
