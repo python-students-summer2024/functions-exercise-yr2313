@@ -17,10 +17,9 @@ def roll_die():
 def get_question_type():
   """
   Pseudo-randomly decides whether to give an addition question or a subtraction question.
-  Generates a pseudo-random integer between the 1 and 6, inclusive.
-  Use the function random.randint() to generate the pseudo-randomness that determines the question type.
+  Use the function random.randint() to generate a pseudo-random number between 1 and 6, inclusive, that is used to determine the question type.
 
-  :returns: "sum"" for an addition question, "difference" for a subtraction question.
+  :returns: "sum" for an addition question, "difference" for a subtraction question.
   """
   # complete this function below here
 
